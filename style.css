@@ -34,4 +34,6 @@ a {
 
 main {
   padding: 32px;
+  max-width: 800px;
+  margin: 0 auto;
 }
