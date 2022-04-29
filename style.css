@@ -37,3 +37,8 @@ main {
   max-width: 800px;
   margin: 0 auto;
 }
+
+main > article + article {
+  margin-top: 3rem;
+  border-top: 2px solid #4242425c;
+}
