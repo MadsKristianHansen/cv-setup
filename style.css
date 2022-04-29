@@ -6,6 +6,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+::selection {
+  background-color: #8a2be2b8;
+  color: white;
+}
+
 body {
   margin: 0;
 }
