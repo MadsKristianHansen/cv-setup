@@ -30,6 +30,20 @@ h4 {
 
 a {
   color: blueviolet;
+  padding: 5px;
+}
+
+nav > a + a {
+  margin-left: 3rem;
+}
+
+nav > a:hover {
+  background-color: aliceblue;
+}
+
+nav > a:active {
+  color: white;
+  background-color: rgba(240, 248, 255, 0.254);
 }
 
 main {
@@ -41,4 +55,12 @@ main {
 main > article + article {
   margin-top: 3rem;
   border-top: 2px solid #4242425c;
+}
+
+address a:hover {
+  color: rgba(137, 43, 226, 0.694);
+}
+
+address a:active {
+  color: red;
 }
