@@ -38,6 +38,10 @@ a {
   padding: 5px;
 }
 
+.profession::after {
+  content: " 🖥️";
+}
+
 nav > a + a {
   margin-left: 3rem;
 }
