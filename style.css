@@ -12,6 +12,17 @@ html {
   font-size: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
 ::selection {
   background-color: #8a2be2b8;
   color: white;
