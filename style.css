@@ -135,6 +135,12 @@ a {
   border-top: 0.125rem solid #4242425c;
 }
 
+@media screen and (min-width: 768px) {
+  .main > article + article {
+    margin-top: 4rem;
+  }
+}
+
 .address-link:hover {
   color: rgba(137, 43, 226, 0.694);
 }
