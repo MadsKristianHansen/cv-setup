@@ -83,3 +83,11 @@ a {
 .address-link:active {
   color: red;
 }
+
+.experience-heading {
+  display: inline-block;
+}
+
+.experience-subheading {
+  display: inline-block;
+}
