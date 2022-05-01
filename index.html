@@ -8,6 +8,7 @@
     <meta name="author" content="Mads">
     <meta name="description" content="This is a test CV Setup">
     <title>CV Setup</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,13 +25,13 @@
         <h1>This is the test CV Setup of Mads Kristian Hansen</h1>
         <p class="profession">I am an aspiring programming student about to work as a <i>Front End Developer</i></p>
         <nav>
-            <a href="#Profile">Profile</a>
-            <a href="#Experiences">Experiences</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Contact">Contact</a>
+            <a class="nav-link" href="#Profile">Profile</a>
+            <a class="nav-link" href="#Experiences">Experiences</a>
+            <a class="nav-link" href="#Skills">Skills</a>
+            <a class="nav-link" href="#Contact">Contact</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <article id="Profile">
             <h2>Profile</h2>
             <p>I am a reposeful, disciplined ascetic, interested in optimal health and continuous self development.<br>
@@ -101,8 +102,8 @@
             <h2>Contact</h2>
             <address>
                 <ol type="I">
-                    <li><a href="mailto:mads_hansen@hotmail.de">mads_hansen@hotmail.de</a></li>
-                    <li><a href="https://github.com/MadsKristianHansen">GitHub</a></li>
+                    <li><a class="address-link" href="mailto:mads_hansen@hotmail.de">mads_hansen@hotmail.de</a></li>
+                    <li><a class="address-link" href="https://github.com/MadsKristianHansen">GitHub</a></li>
                 </ol>
             </address>
         </article>
