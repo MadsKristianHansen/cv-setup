@@ -9,6 +9,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 ::selection {
@@ -38,7 +39,7 @@ a {
 /* Specific Stylings */
 
 .main-header {
-  padding: 32px;
+  padding: 2rem;
   text-align: center;
   background: linear-gradient(
     180deg,
@@ -54,10 +55,10 @@ a {
 
 .hire-me {
   position: absolute;
-  right: 16px;
-  top: 16px;
-  padding: 8px;
-  border-radius: 4px;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
   color: floralwhite;
   border: 1px solid floralwhite;
   background: linear-gradient(
@@ -68,7 +69,7 @@ a {
 }
 
 .nav-link + .nav-link {
-  margin-left: 48px;
+  margin-left: 3rem;
 }
 
 .nav-link:hover {
@@ -81,18 +82,18 @@ a {
 }
 
 .main {
-  padding: 32px;
+  padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .main > * {
-  padding: 0px 16px;
+  padding: 0 1rem;
 }
 
 .main > article + article {
-  margin-top: 48px;
-  border-top: 2px solid #4242425c;
+  margin-top: 3rem;
+  border-top: 0.125rem solid #4242425c;
 }
 
 .address-link:hover {
@@ -105,7 +106,7 @@ a {
 
 .article-heading {
   position: relative;
-  left: -16px;
+  left: -1rem;
 }
 
 .experience-heading {
