@@ -49,6 +49,18 @@ a {
   color: white;
 }
 
+.heading-group {
+  font-size: 4rem;
+}
+
+.main-heading {
+  font-size: 1em;
+}
+
+.profession {
+  font-size: 0.25em;
+}
+
 .profession::after {
   content: " 🖥️";
 }
