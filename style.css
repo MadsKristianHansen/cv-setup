@@ -107,6 +107,11 @@ a {
   }
 }
 
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-link + .nav-link {
   margin-left: 3rem;
 }
