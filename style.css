@@ -123,6 +123,7 @@ a {
 @media screen and (min-width: 768px) {
   .nav-link + .nav-link {
     margin-left: 3rem;
+  }
 }
 
 .nav-link:hover {
@@ -166,6 +167,11 @@ a {
 .article-heading {
   position: relative;
   left: -1rem;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
 }
 
 .experience-heading {
