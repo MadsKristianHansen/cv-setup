@@ -54,17 +54,6 @@ html {
   font-size: 16px;
 }
 
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  html {
-    font-size: 16px;
-  }
-}
 ::selection {
   background-color: var(--selection-bg);
   color: var(--text-color-2);
@@ -125,39 +114,11 @@ a {
   background: var(--badge-gradient);
 }
 
-@media screen and (min-width: 992px) {
-  .hire-me {
-    position: fixed;
-  }
-}
-
-@media print {
-  .hire-me {
-    display: none;
-  }
-
-  .navigation {
-    display: none;
-  }
-}
-
 .navigation {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-@media screen and (min-width: 768px) {
-  .navigation {
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .nav-link + .nav-link {
-    margin-left: 3rem;
-  }
 }
 
 .nav-link:hover {
@@ -184,12 +145,6 @@ a {
   border-top: 0.125rem solid var(--article-border);
 }
 
-@media screen and (min-width: 768px) {
-  .main > article + article {
-    margin-top: 4rem;
-  }
-}
-
 .address-link:hover {
   color: var(--address-link-hover);
 }
@@ -206,14 +161,6 @@ a {
 .experience-header {
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 768px) {
-  .experience-header {
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-  }
 }
 
 .experience-heading {
@@ -255,4 +202,51 @@ a {
 
 .footer-link:hover {
   color: var(--footer-link-hover);
+}
+
+/**************************************************************/
+/* Responsive Stylings */
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .navigation {
+    flex-direction: row;
+  }
+
+  .nav-link + .nav-link {
+    margin-left: 3rem;
+  }
+
+  .main > article + article {
+    margin-top: 4rem;
+  }
+
+  .experience-header {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
+  .hire-me {
+    position: fixed;
+  }
+}
+
+@media print {
+  .hire-me {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
 }
