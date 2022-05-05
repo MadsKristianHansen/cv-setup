@@ -134,6 +134,11 @@ a {
   background-color: var(--nav-link-active-bg);
 }
 
+.nav-link:focus {
+  color: var(--text-color-2);
+  background-color: var(--nav-link-active-bg);
+}
+
 .main {
   padding: 2rem;
   max-width: 90ch;
