@@ -189,6 +189,10 @@ a {
   display: inline-block;
 }
 
+.stack-wrapper {
+  margin-left: 1.3rem;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -239,6 +243,15 @@ a {
   }
 
   .main > article + article {
+    margin-top: 4rem;
+  }
+
+  .main-article {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+  }
+
+  .main-article-content {
     margin-top: 4rem;
   }
 
