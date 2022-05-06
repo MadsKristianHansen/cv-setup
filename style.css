@@ -87,6 +87,11 @@ a {
   color: var(--text-color-2);
 }
 
+.main-header:hover .hire-me,
+.main-header:focus-within .hire-me {
+  transform: scale(1.25);
+}
+
 .heading-group {
   font-size: 4rem;
 }
@@ -112,6 +117,10 @@ a {
   color: var(--text-color-3);
   border: 1px solid var(--text-color-3);
   background: var(--badge-gradient);
+  box-shadow: 0 2px 2px #00000052, 0 3px 1px -2px #00000017, 0 1px 5px #00000052;
+  transform-origin: top right;
+  transition: transform 255ms ease-in-out;
+  cursor: pointer;
 }
 
 .navigation {
